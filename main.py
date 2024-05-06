@@ -5,7 +5,7 @@ from Gemini import get_gemini_response
 app = FastAPI()
 host = "195.26.253.58"
 port = 8000
-api_key = "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"
+api_key="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"
 model_name = "text-embedding-3-large"
 collection_name = "YemenNet"
 client = ChromaDBClient(host, port, api_key, model_name)
